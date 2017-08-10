@@ -1,0 +1,45 @@
+.product .image {
+    margin: 20px;
+}
+
+.product .description {
+    margin-top: 70px;
+    padding: 10px 20px;
+}
+
+.product .description .description-title {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.product .description .description-text {
+    font-size: 1em;
+}
+
+.product .details {
+    margin: 20px 0;
+}
+
+.product .details .title {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.product .details .value {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.product .btn-buy {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.product .btn-buy:hover {
+    transition:all 1.000s ease;
+    -webkit-transition:all 1.000s ease;
+    -moz-transition:all 1.000s ease;
+    -o-transition:all 1.000s ease;
+    cursor: pointer;
+}

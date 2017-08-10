@@ -1,0 +1,35 @@
+{
+  "name": "mercado-livre",
+  "version": "1.0.0",
+  "description": "Rest API server application to ML",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tammyfaga/mercadolivre"
+  },
+  "keywords": [
+    "mercado livre",
+    "teste",
+    "frontend"
+  ],
+  "engines": {
+    "node": "7.5.0"
+  },
+  "author": "Tammy Fagá <tammyfaga@yahoo.com.br>",
+  "license": "ISC",
+  "homepage": "https://github.com/tammyfaga/mercadolivre",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
